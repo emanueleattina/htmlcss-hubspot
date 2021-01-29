@@ -1,0 +1,179 @@
+/* COLORI */
+
+/* grigio chiaro #F4F9FD */
+/* arancione #FE7759 */
+/* blu testo e footer #32475B */
+/* azzurrino #009EB8 */
+
+/* FINE COLORI */
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.row
+{
+  margin: 0 -15px;
+  height: 100%;
+}
+
+.row::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ml-20
+{
+  margin-left: 20px;
+}
+
+.nav-fixed
+{
+  background: #F4F9FD;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+.nav-fixed ul
+{
+  display: inline-block;
+  line-height: 70px;
+}
+
+.nav-fixed ul li
+{
+  list-style: none;
+  display: inline-block;
+  color: #32475B;
+  font-weight: 500;
+}
+
+.nav-fixed ul li a
+{
+  color: #32475B;
+  text-decoration: none;
+}
+
+.nav-fixed ul li:first-child:after
+{
+  content: "|";
+  padding: 0 20px
+}
+
+.dropdown::after
+{
+  content: '\25be';
+  padding-left: 4px;
+}
+
+.bottoni
+{
+  display: inline-block;
+  float: right;
+  line-height: 70px;
+}
+
+.bottoni i
+{
+  color: #009EB8;
+  font-size: 15px;
+}
+
+.btn
+{
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn-bordered
+{
+  color: #FE7759;
+  background: none;
+  border: 1px solid #FE7759;
+  padding: 10px 10px;
+}
+
+.btn-arancione
+{
+  color: #fff;
+  background: #FE7759;
+  border: 1px solid #FE7759;
+  padding: 10px 10px;
+}
+
+.nav-menu
+{
+  height: 70px;
+  background: green;
+}
+
+.logo
+{
+  display: inline-block;
+  height: 25px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.logo img
+{
+  height: 100%;
+  vertical-align: middle;
+  background: black;
+}
+
+.nav-menu
+{
+  background: #fff;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+.nav-menu ul
+{
+  display: inline;
+  float: right;
+}
+
+.nav-menu ul li
+{
+  list-style: none;
+  display: inline-block;
+  color: #32475B;
+  font-weight: 500;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+.nav-menu ul li a
+{
+  color: #32475B;
+  text-decoration: none;
+}
+
+.nav-menu .dropdown::after
+{
+  padding-left: 15px;
+}
