@@ -22,7 +22,7 @@ body
 .container
 {
   width: 80%;
-  height: 100%;
+  height: 2000px;
   margin: auto;
   position: relative;
 }
@@ -52,6 +52,9 @@ body
   height: 70px;
   border-bottom: 1px solid black;
   font-size: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-fixed ul
@@ -139,7 +142,6 @@ body
 {
   height: 100%;
   vertical-align: middle;
-  background: black;
 }
 
 .nav-menu
@@ -149,6 +151,8 @@ body
   height: 70px;
   border-bottom: 1px solid black;
   font-size: 15px;
+  position: relative;
+  top: 70px;
 }
 
 .nav-menu ul
@@ -160,7 +164,7 @@ body
 .nav-menu ul li
 {
   list-style: none;
-  display: inline-block;
+  display: inline-block;å
   color: #32475B;
   font-weight: 500;
   margin-left: 20px;
