@@ -31,6 +31,7 @@ body
 {
   /* margin: 0 -15px; */
   height: 100%;
+  width: 100%;
 }
 
 .row::after
@@ -67,9 +68,9 @@ body
   /* padding: 0 15px; */
 }
 
-.col-33
+.col-30
 {
-  width: calc(100% / 3);
+  width: 30%;
   height: 100%;
   float: left;
   position: relative;
@@ -95,6 +96,16 @@ body
   margin-top: 20px;
 }
 
+.mt-10
+{
+  margin-top: 10px;
+}
+
+.mt-40
+{
+  margin-top: 40px;
+}
+
 .mb-25
 {
   margin-bottom: 25px;
@@ -103,6 +114,12 @@ body
 .mb-15
 {
   margin-bottom: 15px;
+}
+
+.margin-left-right
+{
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .nav-top
@@ -396,6 +413,57 @@ body
 }
 
 .card-75 ul li i
+{
+  color: #FE7759;
+  padding-right: 20px;
+}
+
+.card-30
+{
+  text-align: center;
+  padding: 30px;
+}
+
+.card-30 img
+{
+  height: 70px;
+}
+
+.card-30 h3
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-30 p
+{
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.card-30 hr
+{
+  border: 1px solid #32475B;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card-30 ul
+{
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.card-30 ul li
+{
+  font-size: 13px;
+}
+
+.card-30 ul li i
 {
   color: #FE7759;
   padding-right: 20px;
