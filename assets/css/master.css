@@ -24,11 +24,12 @@ body
 {
   width: 80%;
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 .row
 {
-  margin: 0 -15px;
+  /* margin: 0 -15px; */
   height: 100%;
 }
 
@@ -45,7 +46,16 @@ body
   height: 100%;
   float: left;
   position: relative;
-  padding: 0 15px;
+  /* padding: 0 15px; */
+}
+
+.col-75
+{
+  width: 75%;
+  height: 100%;
+  float: left;
+  position: relative;
+  /* padding: 0 15px; */
 }
 
 .col-50
@@ -54,7 +64,7 @@ body
   height: 100%;
   float: left;
   position: relative;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .col-33
@@ -63,7 +73,7 @@ body
   height: 100%;
   float: left;
   position: relative;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .col-25
@@ -72,7 +82,7 @@ body
   height: 100%;
   float: left;
   position: relative;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .ml-20
@@ -83,6 +93,16 @@ body
 .mt-20
 {
   margin-top: 20px;
+}
+
+.mb-25
+{
+  margin-bottom: 25px;
+}
+
+.mb-15
+{
+  margin-bottom: 15px;
 }
 
 .nav-top
@@ -278,4 +298,105 @@ body
   border-bottom: 2.5px solid #32475B;
   position: absolute;
   bottom: 0;
+}
+
+.section-card
+{
+  background: #F4F9FD;
+}
+
+.section-text
+{
+  text-align: center;
+  padding: 40px 150px;
+}
+
+.section-text img
+{
+  height: 150px;
+}
+
+.section-text h2
+{
+  color: #32475B;
+}
+
+.section-text p
+{
+  line-height: 25px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.card-style
+{
+  background: #fff;
+  box-shadow: 0px 0px 4px rgba(218, 218, 218, 0.8);
+  border-radius: 5px;
+  margin: 0;
+  color: #32475B;
+}
+
+.card-padding
+{
+  padding: 70px 80px;
+}
+
+.card-25
+{
+  text-align: center;
+}
+
+.card-25 img
+{
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.card-75
+{
+  padding: 0 50px;
+}
+
+.card-75 p
+{
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.card-75 h4
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-75 h4:after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  background: #32475B;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -1px;
+  margin-left: 50px;
+}
+
+.card-75 ul
+{
+  list-style: none;
+  font-size: 13px;
+}
+
+.card-75 ul li
+{
+  display: inline;
+  padding-right: 20px;
+}
+
+.card-75 ul li i
+{
+  color: #FE7759;
+  padding-right: 20px;
 }
