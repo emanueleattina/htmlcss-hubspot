@@ -7,6 +7,7 @@
 
 /* FINE COLORI */
 
+/* LAYOUT */
 *
 {
   margin: 0;
@@ -86,6 +87,10 @@ body
   /* padding: 0 15px; */
 }
 
+/* FINE LAYOUT */
+
+/* UTILITY */
+
 .ml-20
 {
   margin-left: 20px;
@@ -121,6 +126,12 @@ body
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/* FINE UTILITY */
+
+/* HEADER */
+
+/* PRIMA NAVBAR */
 
 .nav-top
 {
@@ -168,6 +179,8 @@ body
   padding-left: 4px;
 }
 
+/* BUTTONS */
+
 .bottoni
 {
   display: inline-block;
@@ -210,6 +223,12 @@ body
   border: 1px solid #FE7759;
   padding: 20px 35px;
 }
+
+/* FINE BUTTONS */
+
+/* FINE PRIMA NAVBAR */
+
+/* SECONDA NAVBAR */
 
 .nav-bottom
 {
@@ -274,6 +293,10 @@ body
   padding-left: 15px;
 }
 
+/* FINE SECONDA NAVBAR */
+
+/* JUMBO */
+
 .jumbo
 {
   height: 600px;
@@ -316,6 +339,12 @@ body
   position: absolute;
   bottom: 0;
 }
+
+/* FINE JUMBO */
+
+/* FINE HEADER */
+
+/* SECTION CARD */
 
 .section-card
 {
@@ -472,6 +501,10 @@ body
   padding-right: 20px;
 }
 
+/* FINE SECTION CARD */
+
+/* SECTION GRADIENT */
+
 .section-gradient
 {
   color: #fff;
@@ -529,3 +562,5 @@ body
 {
   font-size: 11px;
 }
+
+/* FINE SECTION GRADIENT */
