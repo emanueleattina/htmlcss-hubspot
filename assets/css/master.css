@@ -121,6 +121,11 @@ body
   margin-bottom: 15px;
 }
 
+.pt-30
+{
+  padding-top: 30px;
+}
+
 .margin-left-right
 {
   margin-left: 5%;
@@ -564,3 +569,46 @@ body
 }
 
 /* FINE SECTION GRADIENT */
+
+/* SECTION PARTNER */
+
+.partner-info
+{
+  padding: 0 50px;
+  color: #32475B;
+}
+
+.partner-info h1
+{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.partner-info p
+{
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.partner-info p span
+{
+  font-weight: 600;
+}
+
+.partner-griglia
+{
+  padding-left: 170px;
+}
+
+.partner-logo
+{
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.partner-logo img
+{
+  height: 15px;
+}
+
+/* FINE SECTION PARTNER */
