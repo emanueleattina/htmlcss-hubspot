@@ -22,7 +22,7 @@ body
 
 .container
 {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   /* border: 1px solid red; */
 }
@@ -320,12 +320,15 @@ body
 .section-card
 {
   background: #F4F9FD;
+  padding: 40px 0;
 }
 
 .section-text
 {
   text-align: center;
-  padding: 40px 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
 }
 
 .section-text img
@@ -467,4 +470,23 @@ body
 {
   color: #FE7759;
   padding-right: 20px;
+}
+
+.section-gradient
+{
+  color: #fff;
+  padding: 40px 0;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  text-align: center;
+}
+
+.gradient-text h2
+{
+  margin-bottom: 20px;
+}
+
+.gradient-text p
+{
+  font-size: 13px;
+  line-height: 25px;
 }
