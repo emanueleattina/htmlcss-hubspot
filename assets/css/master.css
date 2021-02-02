@@ -60,9 +60,27 @@ body
   /* padding: 0 15px; */
 }
 
+.col-60
+{
+  width: 60%;
+  height: 100%;
+  float: left;
+  position: relative;
+  /* padding: 0 15px; */
+}
+
 .col-50
 {
   width: calc(100% / 2);
+  height: 100%;
+  float: left;
+  position: relative;
+  /* padding: 0 15px; */
+}
+
+.col-40
+{
+  width: 40%;
   height: 100%;
   float: left;
   position: relative;
@@ -106,9 +124,29 @@ body
   margin-top: 10px;
 }
 
+.mt-30
+{
+  margin-top: 30px;
+}
+
 .mt-40
 {
   margin-top: 40px;
+}
+
+.mt-80
+{
+  margin-top: 80px;
+}
+
+.mb-50
+{
+  margin-bottom: 50px;
+}
+
+.mb-30
+{
+  margin-bottom: 30px;
 }
 
 .mb-25
@@ -414,6 +452,11 @@ body
 
 .card-75 p
 {
+
+}
+
+.paragrafo-standard
+{
   line-height: 25px;
   font-size: 13px;
 }
@@ -474,8 +517,8 @@ body
 
 .card-30 p
 {
-  font-size: 13px;
-  line-height: 25px;
+  /* font-size: 13px;
+  line-height: 25px; */
 }
 
 .card-30 hr
@@ -525,8 +568,8 @@ body
 
 .gradient-text p
 {
-  font-size: 13px;
-  line-height: 25px;
+  /* font-size: 13px;
+  line-height: 25px; */
 }
 
 .riga
@@ -586,8 +629,8 @@ body
 
 .partner-info p
 {
-  font-size: 13px;
-  line-height: 25px;
+  /* font-size: 13px;
+  line-height: 25px; */
 }
 
 .partner-info p span
@@ -597,18 +640,56 @@ body
 
 .partner-griglia
 {
-  padding-left: 170px;
+  width: 600px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
 }
 
 .partner-logo
 {
   display: inline-block;
-  padding: 10px 5px;
+  /* border: 1px solid red; */
+  width: 20%;
+  height: 35px;
+  margin-left: 25px;
 }
 
 .partner-logo img
 {
-  height: 15px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.woman-info
+{
+
+}
+
+.woman-info h1
+{
+  color: #32475B;
+}
+
+.woman-info p
+{
+  color: #32475B;
+}
+
+.woman-info p:last-child
+{
+    font-size: 12px;
+}
+
+.woman-img
+{
+  height: 300px;
+}
+
+.woman-img img
+{
+  height: 100%;
+  float: right;
 }
 
 /* FINE SECTION PARTNER */
