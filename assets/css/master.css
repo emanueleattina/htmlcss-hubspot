@@ -170,6 +170,11 @@ body
   padding-top: 30px;
 }
 
+.plr-30
+{
+  padding: 0 30px;
+}
+
 .margin-left-right
 {
   margin-left: 5%;
@@ -189,6 +194,8 @@ body
   height: 70px;
   border-bottom: 1px solid black;
   font-size: 15px;
+  position: fixed;
+  z-index: 1;
 }
 
 .nav-top-content
@@ -794,6 +801,7 @@ footer ul li a
 .nav-footer ul li
 {
   display: inline;
+  margin-left: 15px;
 }
 
 .footer-info-sx
@@ -806,3 +814,5 @@ footer ul li a
 {
   float: right;
 }
+
+/* FINE FOOTER */
